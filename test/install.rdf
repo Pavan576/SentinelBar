@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>2211CS040084@mallareddyuniversity.ac.in</em:id>
+    <em:type>2</em:type>
+    <em:name>SentinelBar. </em:name>
+    <em:version>v1.0</em:version>
+    <em:creator>Shanmukh Pavan</em:creator>
+    <em:contributor>MOD by: Shanmukh Pavan</em:contributor>
+    <em:description>
+      SentinelBar is an advanced tool designed for educational use and penetration testing, integrating AI to enhance security assessments. It's built to help users efficiently identify vulnerabilities and improve web application security.
+    </em:description>
+    <em:homepageURL>https://github.com/Pavan576</em:homepageURL>
+    <em:iconURL>chrome://hackbar/skin/icon.png</em:iconURL>
+	  <em:optionsURL>chrome://hackbar/content/about.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>6.0.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

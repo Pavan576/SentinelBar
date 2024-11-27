@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<overlay id="aiIntegrationOverlay"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <window id="aiIntegrationWindow" title="AI Chat" width="300" height="400">
+        <vbox>
+            <label value="Chat with AI:"/>
+            <textbox id="aiChatInput" multiline="true" flex="1" />
+            <button label="Send" id="sendAIChat" oncommand="sendToAI();" />
+            <vbox id="aiChatOutput" flex="1" />
+        </vbox>
+    </window>
+
+    <script type="application/x-javascript" src="js/aiIntegration.js"/>
+</overlay>
