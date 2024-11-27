@@ -1,6 +1,6 @@
 // aiIntegration.js
 
-const apiKey = "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"; // OpenAI API key
+const apiKey = ""; // OpenAI API key
 
 // Function to fetch AI response from OpenAI API
 async function fetchAIResponse(prompt) {
